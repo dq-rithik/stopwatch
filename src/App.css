@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4ecec;
+}
+
+.container {
+    text-align: center;
+    background: rgba(68, 141, 167, 0.378);
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(69, 104, 69)
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border :1px;
+    border-radius: 7px;
+}
+
+#laps {
+    margin-top: 20px;
+    color:rgb(3, 98, 3)
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+}
